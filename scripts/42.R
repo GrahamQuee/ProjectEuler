@@ -1,6 +1,6 @@
 #Problem 42
 
-words = scan("data\\p042_words.txt", what='string', sep=',')
+words = scan("p042_words.txt", what='string', sep=',')
 upper_bound = max(nchar(words))*26
 
 triangle = function(n){
